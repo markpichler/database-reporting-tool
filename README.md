@@ -7,6 +7,7 @@ This project uses the PostgreSQL Python wrapper Psycopg to query the server log 
 
 Refer to the [Output file](./output.txt) to see the program's returned information.
 
+# Database Summary
 The `news` database contains the following three tables: 
 * `articles` stores information on the news articles. 
 * `authors` stores information about the authors.
