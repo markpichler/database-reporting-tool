@@ -30,7 +30,7 @@ WHERE status LIKE '404%'
 GROUP BY day;
 ```
 # Execution
-Simply type the following in the terminal to run this application:
+To execute this application, run the following Python module from the terminal:
 ```shell
 python3 logs_reporting_tool.py
 ```
