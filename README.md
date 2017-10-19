@@ -17,5 +17,5 @@ GROUP BY day;
 # Execution
 
 ```shell
-python3 
+python3 logs_reporting_tool.py
 ```
