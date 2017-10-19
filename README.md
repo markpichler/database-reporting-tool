@@ -1,7 +1,7 @@
 # logs-analysis-project
 
 # Setup
-The following SQL Views must be defined in the "news" database for the program to properly execute:
+The following SQL Views must be defined in the "news" database before execution:
 ```sql
 CREATE VIEW requests_per_day AS
 SELECT DATE(time) AS day, COUNT(*) AS requests
