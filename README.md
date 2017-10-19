@@ -14,6 +14,10 @@ The `news` database contains the following three tables:
 * `log` stores information on server requests.    
 
 # Setup
+This application uses the Psycopg 2 Python package.  To set up the environment, simply type the following in the terminal:
+```
+pip install -r requirements.txt
+```
 The following SQL Views must be defined in the `news` database before execution:
 ```sql
 -- A two column table showing the total number of requests per day.
