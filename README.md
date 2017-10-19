@@ -11,7 +11,7 @@ Refer to the [Output file](./output.txt) to see the program's returned informati
 The `news` database contains the following three tables: 
 * `articles` stores information on the news articles. 
 * `authors` stores information about the authors.
-* `log` stores information on server requests.     
+* `log` stores information on server requests.    
 
 # Setup
 The following SQL Views must be defined in the `news` database before execution:
