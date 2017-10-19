@@ -1,14 +1,16 @@
 # logs-analysis-project
-This project uses the PostgreSQL Python wrapper Psycopg to query a server log for a mock newspaper site in order to return information, in plain text, addressing the following prompts:
+This project uses the PostgreSQL Python wrapper Psycopg to query the server log of a mock newspaper site in order to return information, in plain text, addressing the following prompts:
 
 1. **What are the three most popular articles of all time?**
 2. **Who are the most popular article authors of all time?**
 3. **On which days did more than 1% of all requests lead to errors?**
 
+Refer to the [Output file](./output.txt) to see the program's returned information.
+
 The `news` database contains the following three tables: 
-* `articles` 
-* `authors`
-* `log`  
+* `articles` stores information on the news articles. 
+* `authors` stores information about the authors.
+* `log` stores information on server requests.     
 
 # Setup
 The following SQL Views must be defined in the `news` database before execution:
