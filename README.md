@@ -1,7 +1,7 @@
 # logs-analysis-project
 
-# SQL Views
-The source code for this project requires the following views:
+# Setup
+The following SQL Views must be defined in the "news" database for the program to properly execute:
 ```sql
 CREATE VIEW requests_per_day AS
 SELECT DATE(time) AS day, COUNT(*) AS requests
@@ -13,4 +13,9 @@ SELECT DATE(time) AS day, COUNT(*) AS errors
 FROM log
 WHERE status LIKE '404%'
 GROUP BY day;
+```
+# Execution
+
+```shell
+python3 
 ```
