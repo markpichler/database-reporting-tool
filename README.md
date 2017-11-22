@@ -1,4 +1,4 @@
-# logs-analysis-project
+# database-reporting-tool
 This project uses the PostgreSQL Python wrapper Psycopg to query the server log of a mock newspaper site in order to return information, in plain text, addressing the following prompts:
 
 1. **What are the three most popular articles of all time?**
